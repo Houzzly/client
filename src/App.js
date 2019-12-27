@@ -2,16 +2,18 @@ import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import LandingPage from './views/landing/LandingPage';
 import SignUp from './views/signup/SignUp';
-import NavBar from './views/navbar/NavBar';
+import Header from './views/header_footer/Header';
+import Footer from './views/header_footer/Footer';
 
 function App() {
 	return (
 		<div>
 			<BrowserRouter>
 				<div>
-					<NavBar />
+					<Header />
 					<Route path="/" exact component={LandingPage} />
 					<Route path="/signup" exact component={SignUp} />
+					<Footer />
 				</div>
 			</BrowserRouter>
 		</div>
