@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-// TODO: Section of Nav Bar into different quadrants (Right side for login/signup)
+// TODO: Section off Nav Bar into different quadrants (Right side for login/signup)
 // TODO: Left side for Name of App
 const Header = () => {
 	return (

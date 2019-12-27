@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+// TODO: Complete footer design
 const Footer = () => {
 	return (
 		<FooterContainer>
