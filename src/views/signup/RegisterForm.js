@@ -10,6 +10,7 @@ const initialState = {
 	password: ''
 };
 
+// TODO: refactor to enable user to confirm password before registering
 const RegisterForm = () => {
 	const { handleSubmit, handleChange, values, handleBlur, errors, isSumbitting } = useFormInput(
 		initialState,
